@@ -1,12 +1,91 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  line-height: 1.5;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
-/* Add styles here! */
+.max-w-328px {
+  max-width: 328px;
+}
+
+.max-width-wrapper {
+  max-width: 640px;
+}
+
+.margin-inline-auto {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.h-50percent {
+  height: 50%;
+}
+
+.pt-64px {
+  padding-top: 64px;
+}
+
+.bg-white {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.bg-dark-gray {
+  background-color: hsl(0deg, 0%, 40%);
+}
+
+.border-t-light-gray-8px {
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+}
+
+.border-b-dark-gold-8px {
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.border-b-light-gray-8px {
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
+
+.p-16px {
+  padding: 16px;
+}
+
+.pt-8px {
+  padding-top: 8px;
+}
+
+.text-green {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.bg-light-gold {
+  background-color: hsl(45deg, 100%, 50%);
+}
+
+.py-8px {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.px-24px {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.ml-neg-24px {
+  margin-left: -24px;
+}
